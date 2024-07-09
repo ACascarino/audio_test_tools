@@ -1,4 +1,4 @@
-@Library('xmos_jenkins_shared_library@v0.18.0') _
+@Library('xmos_jenkins_shared_library@v0.32.0') _
 
 getApproval()
 
@@ -7,7 +7,7 @@ pipeline {
 
   environment {
     REPO = 'audio_test_tools'
-    VIEW = getViewName(REPO)
+    VIEW = 'audio_test_tools_lsm-79_update_python'
   }
 
   stages {
