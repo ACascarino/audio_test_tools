@@ -7,7 +7,7 @@ pipeline {
 
   environment {
     REPO = 'audio_test_tools'
-    VIEW = 'audio_test_tools_lsm-79_update_python'
+    VIEW = getViewName(REPO)
   }
 
   stages {
